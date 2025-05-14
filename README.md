@@ -7,6 +7,7 @@ Lembrando que árvore filogenética é muito mais complicado do que foi apresent
 
 ### 1. Explicar o contexto da aplicação
 Organização de Objetos dentro de um programa. A Programação Orientada a Objeto (POO) teve como objetivo aproximar o manuseio das estruturas de um programa ao manuseio de coisas (pessoas, objetos, animais, estruturas, etc) do mundo real. O POO utiliza de uma mecanica chamada de **herança** para que objeto herdem caracteristicas de outros objetos "pai". Assim podemos ver influência na grafos direcionais.
+
 <img 
     src = "./img/grafoDirecional.png"
     style = "display: block; margin: 15px auto;"
