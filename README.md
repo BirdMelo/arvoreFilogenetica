@@ -54,12 +54,6 @@ graph TD
     style Arc fill:#f9f, stroke:#333, color:#000
     style Crus fill:#f9f, stroke:#333, color:#000
 ```
-<div style="display: flex; gap: 10px;">
-    <div style="background-color:#ff9; padding: 10px;"></div>Reino
-    <div style="background-color:#9f9; padding: 10px;"></div>Filo
-    <div style="background-color:#f9f; padding: 10px;"></div>Classe
-</div>
-
 ## Linguagem utilizada
 <img
     alt="JavaScript"
