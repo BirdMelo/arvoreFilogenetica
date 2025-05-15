@@ -1,12 +1,15 @@
 import animal from './kingdom.js'
 
-const exemplo = new animal.Arachnid("Tarantula")
-console.log(`${exemplo.name} é do reino ${exemplo.kingdom}, do filo ${exemplo.filo} e da classe ${exemplo.class}.\nSuas caracteristicas são:`)
+//exemplo 1
 
-const tableData = {
-    'Características do Reino': exemplo.characteristics.kingdom.join(', '),
-    'Características do Filo': exemplo.characteristics.phylum.join(', '),
-    'Características da Classe': exemplo.characteristics.class.join(', ')
-};
+const exemplo1 = new animal.Arachnid("Tarantula")
+animal.introduceAnimal(exemplo1)
 
-console.table(tableData);
+//exemplo 2
+
+const exemplo2 = new animal.Crustacean("Carangueijo")
+animal.introduceAnimal(exemplo2)
+
+const exemplo3 = new animal.Reptile("Cobra")
+exemplo3.polymorphism('phylum', 'possui 4 membros', animal.members(0))
+animal.introduceAnimal(exemplo3)
